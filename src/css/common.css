@@ -1,0 +1,32 @@
+:root {}
+
+div.wrap {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 8px;
+}
+
+.a11y-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+    flex-basis: auto;
+    min-width: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    gap: 0.5em;
+}
+
+.block {
+    display: block;
+}
