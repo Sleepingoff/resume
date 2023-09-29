@@ -11,17 +11,22 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: calc(16px / 10px * 100);
+}
+
+body {
+    font-size: 1.4rem;
+}
+
 img {
     max-width: 100%;
+    vertical-align: middle;
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 2.4rem;
     font-weight: 400;
-}
-
-strong {
-    color: var(--Yellow)
 }
 
 section {
@@ -30,4 +35,9 @@ section {
 
 article {
     padding: 1vh 0;
+}
+
+ul,
+ol {
+    list-style-position: inside;
 }

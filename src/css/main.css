@@ -1,3 +1,7 @@
+strong {
+    color: var(--Yellow)
+}
+
 /* introduce */
 section#intro {}
 
