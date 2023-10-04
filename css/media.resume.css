@@ -1,25 +1,15 @@
 @media screen and (max-width:720px) {
-
-    span.block {
+    header h1 {
         display: block;
     }
 
-    body {
-        font-size: 1.6rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    span.block {
-        display: inline;
-    }
-
-    .strong {
-        margin: auto;
+    .flex {
+        flex-wrap: wrap;
     }
 
     .flex> :first-child {
-        flex-shrink: 1;
+        flex-grow: 1;
+        margin: auto;
     }
 
     .flex> :last-child {
