@@ -6,4 +6,6 @@
 - [ ] 연락 기능 추가하기
 
 ---
-obsidian
+![[Untitled Diagram.svg]]
+
+/insert![[Untitled Diagram 1.svg]]
