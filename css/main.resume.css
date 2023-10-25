@@ -11,3 +11,7 @@
 #intro ul {
     width: 100%;
 }
+
+#project header h3 {
+    margin-bottom: 1rem;
+}

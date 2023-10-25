@@ -68,7 +68,7 @@ ol>li>p {
 }
 
 ul.border-marker>li {
-    border-left: 2px solid black;
+    border-left: 2px solid rgb(84, 84, 84);
     margin-left: 0.5em;
 }
 
