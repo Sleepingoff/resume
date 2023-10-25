@@ -46,25 +46,12 @@ div.wrap {
     flex-basis: 15%;
 }
 
-.flex.ratio-half> :first-child {
-    flex-grow: 0.5;
-    flex-shrink: 0;
-    flex-basis: content;
-    padding: 2rem;
-    align-self: center;
-}
-
-.flex.ratio-half> :last-child {
-    flex-grow: 1;
-}
-
 strong {
     font-weight: 700;
 }
 
 .strong {
-    font-size: 3.0rem;
-    text-align: center;
+    font-size: 2rem;
     margin: auto;
 }
 
@@ -72,22 +59,35 @@ header>h3 {
     font-weight: 700;
 }
 
-header>summary {
+header>ul {
     margin: 1rem 0;
-    margin-left: 1.4rem;
 }
 
 ol>li>p {
     margin: 0.5rem 0;
 }
 
-/* main */
-
-#intro h3 {
-    margin-top: 1rem;
-    display: inline-block;
+ul.border-marker>li {
+    border-left: 2px solid black;
+    margin-left: 0.5em;
 }
 
-header h1 {
-    display: inline-block;
+ul.border-marker>li::before {
+    content: "";
+}
+
+.project-skills {
+    margin: 0.5rem 0;
+}
+
+.project-skills li {
+    display: inline;
+}
+
+.project-skills li::before {
+    content: "";
+}
+
+.project-skills li::after {
+    content: " ";
 }

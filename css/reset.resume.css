@@ -25,15 +25,22 @@ img {
 h2 {
     font-size: 2.4rem;
     font-weight: 400;
+    border-bottom: 3px solid black;
 }
 
 h3 {
     font-weight: inherit;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: right;
 }
 
 section {
-    padding: 1vh;
+    padding: 5vh 0;
 }
 
 article {
@@ -100,4 +107,14 @@ details[open] summary {
 address {
     font-size: 1.2rem;
     font-style: normal;
+    margin: 1rem 0;
+}
+
+code {
+    font-weight: 600;
+    font-size: 0.8rem;
+    background-color: #eee;
+    color: #ff5b5b;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
 }
