@@ -1,20 +1,16 @@
 import styled from "styled-components";
-import Li from "./Li";
+import { PropsWithChildren } from "react";
 
 interface Props {
-  data: Array<string>;
+  children: React.ReactNode;
 }
 
-const Ulist = ({ data }: Props) => {
-  return (
-    <StyledUl>
-      {data.map((d, key) => (
-        <Li key={key}>{d}</Li>
-      ))}
-    </StyledUl>
-  );
+const Ulist = ({ children }: Props) => {
+  return <StyledUl>{children}</StyledUl>;
 };
 
 export default Ulist;
 
-const StyledUl = styled.ul``;
+const StyledUl = styled.ul`
+  font-size: 14px;
+`;

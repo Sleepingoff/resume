@@ -1,3 +1,5 @@
+import Li from "./components/default/Li";
+import Ulist from "./components/default/Ulist";
 import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 
@@ -21,24 +23,25 @@ function App() {
                   <strong>협업, 성장, 도전</strong> 프론트엔드 개발자
                 </h3>
                 <h3>Summary</h3>
-                <ul>
-                  <li>
+                <Ulist>
+                  <Li>
                     건축학과를 다니면서 2D 디자인,3D 툴을 다루는 작업을
                     해왔습니다.
-                  </li>
-                  <li>
+                  </Li>
+                  <Li>
                     개발 시작 3개월만에 팀프로젝트를 진행할 정도로 빠른 성장
                     속도를 가졌습니다.
-                  </li>
-                  <li>
+                  </Li>
+                  <Li>
                     Notion, Slack, GitHub 등 협업과 관련한 툴을 다루는 것을
                     좋아합니다.
-                  </li>
-                  <li>
+                  </Li>
+                  <Li>
                     지식을 공유하는 일을 좋아하여 여러 스터디를 운영 및
                     참여하였습니다.
-                  </li>
-                </ul>
+                  </Li>
+                </Ulist>
+
                 <h3>Contact</h3>
                 <ul>
                   <li>

@@ -1,10 +1,7 @@
+import { PropsWithChildren } from "react";
 import styled from "styled-components";
 
-interface Props {
-  children: React.ReactNode;
-}
-
-const Li = ({ children }: Props) => {
+const Li = ({ children }: PropsWithChildren) => {
   return <StyledLi>{children}</StyledLi>;
 };
 
