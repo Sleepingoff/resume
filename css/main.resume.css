@@ -1,7 +1,6 @@
 /* main */
 #intro .profile {
-    background: url("../images/profile.jpg") no-repeat center/contain;
-    border-radius: 50%;
+    background: url("../images/profile.png") no-repeat center/contain;
 }
 
 #intro h3 {
