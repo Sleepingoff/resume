@@ -1,6 +1,9 @@
 import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 
+//TODO : 리스트 컴포넌트로 변경하여 적용하기
+//TODO: 기본 interface 만들어서 상속하여 적용하기
+
 function App() {
   return (
     <>
